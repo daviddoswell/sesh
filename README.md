@@ -27,3 +27,6 @@ A one-minute meditation app written in SwiftUI.
     - FirebaseFirestore
     - FirebaseAnalytics
     - FirebaseAppCheck
+ 
+![character-2](https://github.com/daviddoswell/sesh/assets/111773826/93ffa9fd-2be5-4f0f-b02e-47c82fb55bc1)
+
