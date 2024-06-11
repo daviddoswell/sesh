@@ -11,6 +11,28 @@
 		498A9EB72C17B1EA00A0EB15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9EB62C17B1EA00A0EB15 /* ContentView.swift */; };
 		498A9EB92C17B1EC00A0EB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498A9EB82C17B1EC00A0EB15 /* Assets.xcassets */; };
 		498A9EBC2C17B1EC00A0EB15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498A9EBB2C17B1EC00A0EB15 /* Preview Assets.xcassets */; };
+		498A9EC92C17B30500A0EB15 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9EC82C17B30500A0EB15 /* Session.swift */; };
+		498A9ECB2C17B41600A0EB15 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9ECA2C17B41600A0EB15 /* LaunchView.swift */; };
+		498A9ECD2C17B42200A0EB15 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9ECC2C17B42200A0EB15 /* HomeView.swift */; };
+		498A9ECF2C17B48F00A0EB15 /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9ECE2C17B48F00A0EB15 /* MeditationView.swift */; };
+		498A9ED12C17B4A100A0EB15 /* SessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9ED02C17B4A100A0EB15 /* SessionListView.swift */; };
+		498A9ED32C17B4B400A0EB15 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9ED22C17B4B400A0EB15 /* SessionViewModel.swift */; };
+		498A9ED52C17B50F00A0EB15 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9ED42C17B50F00A0EB15 /* CircleGroupView.swift */; };
+		498A9ED72C17B52800A0EB15 /* HeartShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9ED62C17B52800A0EB15 /* HeartShapeView.swift */; };
+		498A9ED92C17B53B00A0EB15 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9ED82C17B53B00A0EB15 /* AudioPlayer.swift */; };
+		498A9EDB2C17B54900A0EB15 /* HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A9EDA2C17B54900A0EB15 /* HeartShape.swift */; };
+		498A9EE32C17B83000A0EB15 /* harp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 498A9EDD2C17B83000A0EB15 /* harp.mp3 */; };
+		498A9EE42C17B83000A0EB15 /* home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 498A9EDE2C17B83000A0EB15 /* home.mp3 */; };
+		498A9EE52C17B83000A0EB15 /* meditate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 498A9EDF2C17B83000A0EB15 /* meditate.mp3 */; };
+		498A9EE62C17B83000A0EB15 /* sessions.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 498A9EE02C17B83000A0EB15 /* sessions.mp3 */; };
+		498A9EE72C17B83000A0EB15 /* swipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 498A9EE12C17B83000A0EB15 /* swipe.mp3 */; };
+		498A9EEC2C17B8F800A0EB15 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 498A9EEB2C17B8F800A0EB15 /* FirebaseAnalytics */; };
+		498A9EEE2C17B90200A0EB15 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 498A9EED2C17B90200A0EB15 /* FirebaseAnalyticsOnDeviceConversion */; };
+		498A9EF02C17B90A00A0EB15 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 498A9EEF2C17B90A00A0EB15 /* FirebaseAnalyticsSwift */; };
+		498A9EF22C17B91400A0EB15 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 498A9EF12C17B91400A0EB15 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		498A9EF42C17B91B00A0EB15 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 498A9EF32C17B91B00A0EB15 /* FirebaseAppCheck */; };
+		498A9EF62C17B92500A0EB15 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 498A9EF52C17B92500A0EB15 /* FirebaseFirestore */; };
+		498A9EF82C17D40100A0EB15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 498A9EF72C17D40100A0EB15 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +41,22 @@
 		498A9EB62C17B1EA00A0EB15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		498A9EB82C17B1EC00A0EB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498A9EBB2C17B1EC00A0EB15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		498A9EC82C17B30500A0EB15 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		498A9ECA2C17B41600A0EB15 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		498A9ECC2C17B42200A0EB15 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		498A9ECE2C17B48F00A0EB15 /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		498A9ED02C17B4A100A0EB15 /* SessionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListView.swift; sourceTree = "<group>"; };
+		498A9ED22C17B4B400A0EB15 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		498A9ED42C17B50F00A0EB15 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		498A9ED62C17B52800A0EB15 /* HeartShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShapeView.swift; sourceTree = "<group>"; };
+		498A9ED82C17B53B00A0EB15 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		498A9EDA2C17B54900A0EB15 /* HeartShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShape.swift; sourceTree = "<group>"; };
+		498A9EDD2C17B83000A0EB15 /* harp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harp.mp3; sourceTree = "<group>"; };
+		498A9EDE2C17B83000A0EB15 /* home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = home.mp3; sourceTree = "<group>"; };
+		498A9EDF2C17B83000A0EB15 /* meditate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditate.mp3; sourceTree = "<group>"; };
+		498A9EE02C17B83000A0EB15 /* sessions.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sessions.mp3; sourceTree = "<group>"; };
+		498A9EE12C17B83000A0EB15 /* swipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swipe.mp3; sourceTree = "<group>"; };
+		498A9EF72C17D40100A0EB15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498A9EF02C17B90A00A0EB15 /* FirebaseAnalyticsSwift in Frameworks */,
+				498A9EEC2C17B8F800A0EB15 /* FirebaseAnalytics in Frameworks */,
+				498A9EEE2C17B90200A0EB15 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				498A9EF42C17B91B00A0EB15 /* FirebaseAppCheck in Frameworks */,
+				498A9EF22C17B91400A0EB15 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				498A9EF62C17B92500A0EB15 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +81,7 @@
 			children = (
 				498A9EB32C17B1EA00A0EB15 /* Sesh */,
 				498A9EB22C17B1EA00A0EB15 /* Products */,
+				498A9EEA2C17B8F800A0EB15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +97,14 @@
 			isa = PBXGroup;
 			children = (
 				498A9EB42C17B1EA00A0EB15 /* SeshApp.swift */,
-				498A9EB62C17B1EA00A0EB15 /* ContentView.swift */,
+				498A9EF72C17D40100A0EB15 /* GoogleService-Info.plist */,
 				498A9EB82C17B1EC00A0EB15 /* Assets.xcassets */,
+				498A9EC22C17B25200A0EB15 /* Model */,
+				498A9EC32C17B25B00A0EB15 /* Views */,
+				498A9EC42C17B26400A0EB15 /* ViewModels */,
+				498A9EC72C17B28900A0EB15 /* CustomViews */,
+				498A9EC62C17B27E00A0EB15 /* Utilities */,
+				498A9EC52C17B27100A0EB15 /* Audio */,
 				498A9EBA2C17B1EC00A0EB15 /* Preview Content */,
 			);
 			path = Sesh;
@@ -65,6 +116,71 @@
 				498A9EBB2C17B1EC00A0EB15 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		498A9EC22C17B25200A0EB15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				498A9EC82C17B30500A0EB15 /* Session.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		498A9EC32C17B25B00A0EB15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				498A9EB62C17B1EA00A0EB15 /* ContentView.swift */,
+				498A9ECA2C17B41600A0EB15 /* LaunchView.swift */,
+				498A9ECC2C17B42200A0EB15 /* HomeView.swift */,
+				498A9ECE2C17B48F00A0EB15 /* MeditationView.swift */,
+				498A9ED02C17B4A100A0EB15 /* SessionListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		498A9EC42C17B26400A0EB15 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				498A9ED22C17B4B400A0EB15 /* SessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		498A9EC52C17B27100A0EB15 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				498A9EDD2C17B83000A0EB15 /* harp.mp3 */,
+				498A9EDE2C17B83000A0EB15 /* home.mp3 */,
+				498A9EDF2C17B83000A0EB15 /* meditate.mp3 */,
+				498A9EE02C17B83000A0EB15 /* sessions.mp3 */,
+				498A9EE12C17B83000A0EB15 /* swipe.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		498A9EC62C17B27E00A0EB15 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				498A9ED82C17B53B00A0EB15 /* AudioPlayer.swift */,
+				498A9EDA2C17B54900A0EB15 /* HeartShape.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		498A9EC72C17B28900A0EB15 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				498A9ED42C17B50F00A0EB15 /* CircleGroupView.swift */,
+				498A9ED62C17B52800A0EB15 /* HeartShapeView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		498A9EEA2C17B8F800A0EB15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +199,14 @@
 			dependencies = (
 			);
 			name = Sesh;
+			packageProductDependencies = (
+				498A9EEB2C17B8F800A0EB15 /* FirebaseAnalytics */,
+				498A9EED2C17B90200A0EB15 /* FirebaseAnalyticsOnDeviceConversion */,
+				498A9EEF2C17B90A00A0EB15 /* FirebaseAnalyticsSwift */,
+				498A9EF12C17B91400A0EB15 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				498A9EF32C17B91B00A0EB15 /* FirebaseAppCheck */,
+				498A9EF52C17B92500A0EB15 /* FirebaseFirestore */,
+			);
 			productName = Sesh;
 			productReference = 498A9EB12C17B1EA00A0EB15 /* Sesh.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 498A9EA82C17B1EA00A0EB15;
+			packageReferences = (
+				498A9EDC2C17B5B400A0EB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 498A9EB22C17B1EA00A0EB15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498A9EE72C17B83000A0EB15 /* swipe.mp3 in Resources */,
+				498A9EF82C17D40100A0EB15 /* GoogleService-Info.plist in Resources */,
 				498A9EBC2C17B1EC00A0EB15 /* Preview Assets.xcassets in Resources */,
 				498A9EB92C17B1EC00A0EB15 /* Assets.xcassets in Resources */,
+				498A9EE32C17B83000A0EB15 /* harp.mp3 in Resources */,
+				498A9EE62C17B83000A0EB15 /* sessions.mp3 in Resources */,
+				498A9EE42C17B83000A0EB15 /* home.mp3 in Resources */,
+				498A9EE52C17B83000A0EB15 /* meditate.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +270,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498A9EDB2C17B54900A0EB15 /* HeartShape.swift in Sources */,
 				498A9EB72C17B1EA00A0EB15 /* ContentView.swift in Sources */,
+				498A9ED52C17B50F00A0EB15 /* CircleGroupView.swift in Sources */,
+				498A9ED92C17B53B00A0EB15 /* AudioPlayer.swift in Sources */,
+				498A9ED32C17B4B400A0EB15 /* SessionViewModel.swift in Sources */,
+				498A9ECB2C17B41600A0EB15 /* LaunchView.swift in Sources */,
 				498A9EB52C17B1EA00A0EB15 /* SeshApp.swift in Sources */,
+				498A9ECD2C17B42200A0EB15 /* HomeView.swift in Sources */,
+				498A9ED12C17B4A100A0EB15 /* SessionListView.swift in Sources */,
+				498A9ECF2C17B48F00A0EB15 /* MeditationView.swift in Sources */,
+				498A9EC92C17B30500A0EB15 /* Session.swift in Sources */,
+				498A9ED72C17B52800A0EB15 /* HeartShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +421,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +450,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +487,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		498A9EDC2C17B5B400A0EB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		498A9EEB2C17B8F800A0EB15 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498A9EDC2C17B5B400A0EB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		498A9EED2C17B90200A0EB15 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498A9EDC2C17B5B400A0EB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		498A9EEF2C17B90A00A0EB15 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498A9EDC2C17B5B400A0EB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		498A9EF12C17B91400A0EB15 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498A9EDC2C17B5B400A0EB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		498A9EF32C17B91B00A0EB15 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498A9EDC2C17B5B400A0EB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		498A9EF52C17B92500A0EB15 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498A9EDC2C17B5B400A0EB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 498A9EA92C17B1EA00A0EB15 /* Project object */;
 }
